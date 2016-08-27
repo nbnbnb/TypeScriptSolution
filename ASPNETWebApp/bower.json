@@ -1,6 +1,7 @@
 {
   "name": "myproject",
   "dependencies": {
-    "requirejs": "~2.2.0"
+    "requirejs": "~2.2.0",
+    "knockout": "~3.4.0"
   }
 }
