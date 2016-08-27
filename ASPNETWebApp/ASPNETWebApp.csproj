@@ -192,6 +192,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="package.json" />
+    <Content Include="bower.json" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -240,6 +241,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="tsconfig.json" />
     <Content Include="Views\Demo\Index.cshtml" />
+    <Content Include="Views\Demo\Knockout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -252,6 +254,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="src\require-config.ts" />
+    <TypeScriptCompile Include="src\hello.ts" />
     <TypeScriptCompile Include="src\main.ts" />
     <TypeScriptCompile Include="src\model.ts" />
     <TypeScriptCompile Include="src\app.ts" />
@@ -260,14 +264,16 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <NodeLib Include="$(MSBuildProjectDirectory)\node_modules\angular2\bundles\angular2.js"/>
-    <NodeLib Include="$(MSBuildProjectDirectory)\node_modules\angular2\bundles\angular2-polyfills.js"/>
-    <NodeLib Include="$(MSBuildProjectDirectory)\node_modules\systemjs\dist\system.src.js"/>
-    <NodeLib Include="$(MSBuildProjectDirectory)\node_modules\rxjs\bundles\Rx.js"/>
+    <NodeLib Include="$(MSBuildProjectDirectory)\node_modules\angular2\bundles\angular2.js" />
+    <NodeLib Include="$(MSBuildProjectDirectory)\node_modules\angular2\bundles\angular2-polyfills.js" />
+    <NodeLib Include="$(MSBuildProjectDirectory)\node_modules\systemjs\dist\system.src.js" />
+    <NodeLib Include="$(MSBuildProjectDirectory)\node_modules\rxjs\bundles\Rx.js" />
+    <NodeLib Include="$(MSBuildProjectDirectory)\bower_components\knockout\dist\knockout.js" />
+    <NodeLib Include="$(MSBuildProjectDirectory)\bower_components\requirejs\require.js" />
   </ItemGroup>
   <Target Name="CopyFiles" BeforeTargets="Build">
-    <Copy SourceFiles="@(NodeLib)" DestinationFolder="$(MSBuildProjectDirectory)\Scripts"/>
-  </Target>  
+    <Copy SourceFiles="@(NodeLib)" DestinationFolder="$(MSBuildProjectDirectory)\Scripts" />
+  </Target>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

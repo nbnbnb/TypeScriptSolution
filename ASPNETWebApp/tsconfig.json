@@ -12,6 +12,8 @@
     "./src/app.ts",
     "./src/model.ts",
     "./src/main.ts",
+    "./src/hello.ts",
+    "./src/require-config.ts",
     "./typings/index.d.ts"
   ]
 }
