@@ -1,0 +1,6 @@
+{
+  "name": "myproject",
+  "dependencies": {
+    "requirejs": "~2.2.0"
+  }
+}
