@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "sourceMap": true,
+    "target": "es5",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "outDir": "./Scripts/App"
+  },
+  "files": [
+    "./src/app.ts",
+    "./src/model.ts",
+    "./src/main.ts",
+    "./typings/index.d.ts"
+  ]
+}

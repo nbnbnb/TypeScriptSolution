@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Demo Page";
+}
+<script src="~/Scripts/lib/angular2-polyfills.js"></script>
+<script src="~/Scripts/lib/system.src.js"></script>
+<script src="~/Scripts/lib/rx.js"></script>
+<script src="~/Scripts/lib/angular2.js"></script>
+<script>
+    System.config({
+        packages: {
+            '/Scripts/': {  // 设置相对目录
+                format: 'cjs',
+                defaultExtension: 'js'
+            }
+        }
+    });
+    System.import('/Scripts/main').then(null, console.error.bind(console));
+</script>
+<my-app>Loading...</my-app>

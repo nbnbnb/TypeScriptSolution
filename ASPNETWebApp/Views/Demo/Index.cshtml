@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Demo Page";
+}
+<script src="~/Scripts/angular2-polyfills.js"></script>
+<script src="~/Scripts/system.src.js"></script>
+<script src="~/Scripts/rx.js"></script>
+<script src="~/Scripts/angular2.js"></script>
+<script>
+    System.config({
+        packages: {
+            '/Scripts/App': {
+                format: 'cjs',
+                defaultExtension: 'js'
+            }
+        }
+    });
+    System.import('/Scripts/App/main').then(null, console.error.bind(console));
+</script>
+<my-app>Loading...</my-app>
