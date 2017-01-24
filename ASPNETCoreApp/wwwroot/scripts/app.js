@@ -17,14 +17,14 @@ var MyApp = (function () {
     MyApp.prototype.getCompiler = function () {
         return this.model.compiler;
     };
-    MyApp = __decorate([
-        core_1.Component({
-            selector: "my-app",
-            template: "<div>Hello from </div>"
-        }), 
-        __metadata('design:paramtypes', [])
-    ], MyApp);
     return MyApp;
 }());
+MyApp = __decorate([
+    core_1.Component({
+        selector: "my-app",
+        template: "<div>Hello from </div>"
+    }),
+    __metadata("design:paramtypes", [])
+], MyApp);
 exports.MyApp = MyApp;
 //# sourceMappingURL=app.js.map
