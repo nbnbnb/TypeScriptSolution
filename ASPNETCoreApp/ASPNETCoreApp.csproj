@@ -19,9 +19,13 @@
 
   <ItemGroup>
     <Content Include="wwwroot\package.json" />
+    <Content Include="wwwroot\scripts\dev.js" />
+    <Content Include="wwwroot\scripts\flag-dev - 复制.js" />
+    <Content Include="wwwroot\scripts\flag-dev.js" />
+    <Content Include="wwwroot\scripts\flag-prod.js" />
+    <Content Include="wwwroot\scripts\prod.js" />
+    <Content Include="wwwroot\scripts\site - 复制.js" />
     <Content Include="wwwroot\scripts\site.js" />
-    <Content Include="wwwroot\scripts\site.min.js" />
-    <Content Include="wwwroot\scripts\systemjs.config.extras.js" />
     <Content Include="wwwroot\scripts\systemjs.config.js" />
   </ItemGroup>
 
@@ -59,13 +63,13 @@
     <Content Update="wwwroot\package.json">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
+    <Content Update="wwwroot\scripts\flag-dev - 复制.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\site - 复制.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
     <Content Update="wwwroot\scripts\site.js">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Update="wwwroot\scripts\site.min.js">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Update="wwwroot\scripts\systemjs.config.extras.js">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
     <Content Update="wwwroot\scripts\systemjs.config.js">
