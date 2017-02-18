@@ -8,9 +8,9 @@
     "target": "es5"
   },
   "files": [
-    "./app.ts",
-    "./model.ts",
     "./main.ts",
+    "./app.component.ts",
+    "./app.module.ts",
     "../typings/index.d.ts"
   ],
   "compileOnSave": true
