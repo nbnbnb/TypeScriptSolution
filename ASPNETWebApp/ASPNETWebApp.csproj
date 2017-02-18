@@ -188,22 +188,32 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="package.json" />
     <Content Include="bower.json" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\angular2-polyfills.js" />
+    <Content Include="Scripts\angular2.js" />
+    <Content Include="Scripts\App\app.js" />
+    <Content Include="Scripts\App\hello.js" />
+    <Content Include="Scripts\App\main.js" />
+    <Content Include="Scripts\App\model.js" />
+    <Content Include="Scripts\App\require-config.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\knockout.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\require.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Scripts\_references.js" />
+    <Content Include="Scripts\Rx.js" />
+    <Content Include="Scripts\system.src.js" />
+    <None Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -247,7 +257,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="src\require-config.ts" />
@@ -265,6 +274,15 @@
     <NodeLib Include="D:\Repos\TypeScriptSolution\ASPNETWebApp\node_modules\rxjs\bundles\Rx.js" />
     <NodeLib Include="D:\Repos\TypeScriptSolution\ASPNETWebApp\bower_components\knockout\dist\knockout.js" />
     <NodeLib Include="D:\Repos\TypeScriptSolution\ASPNETWebApp\bower_components\requirejs\require.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\App\app.js.map" />
+    <Content Include="Scripts\App\hello.js.map" />
+    <Content Include="Scripts\App\main.js.map" />
+    <Content Include="Scripts\App\model.js.map" />
+    <Content Include="Scripts\App\require-config.js.map" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
   </ItemGroup>
   <Target Name="CopyFiles" BeforeTargets="Build">
     <Copy SourceFiles="@(NodeLib)" DestinationFolder="$(MSBuildProjectDirectory)\Scripts" />
