@@ -264,12 +264,11 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <NodeLib Include="$(MSBuildProjectDirectory)\node_modules\angular2\bundles\angular2.js" />
-    <NodeLib Include="$(MSBuildProjectDirectory)\node_modules\angular2\bundles\angular2-polyfills.js" />
-    <NodeLib Include="$(MSBuildProjectDirectory)\node_modules\systemjs\dist\system.src.js" />
-    <NodeLib Include="$(MSBuildProjectDirectory)\node_modules\rxjs\bundles\Rx.js" />
-    <NodeLib Include="$(MSBuildProjectDirectory)\bower_components\knockout\dist\knockout.js" />
-    <NodeLib Include="$(MSBuildProjectDirectory)\bower_components\requirejs\require.js" />
+    <NodeLib Include="D:\Repos\TypeScriptSolution\ASPNETWebApp\node_modules\angular2\bundles\angular2.js" />
+    <NodeLib Include="D:\Repos\TypeScriptSolution\ASPNETWebApp\node_modules\systemjs\dist\system.src.js" />
+    <NodeLib Include="D:\Repos\TypeScriptSolution\ASPNETWebApp\node_modules\rxjs\bundles\Rx.js" />
+    <NodeLib Include="D:\Repos\TypeScriptSolution\ASPNETWebApp\bower_components\knockout\dist\knockout.js" />
+    <NodeLib Include="D:\Repos\TypeScriptSolution\ASPNETWebApp\bower_components\requirejs\require.js" />
   </ItemGroup>
   <Target Name="CopyFiles" BeforeTargets="Build">
     <Copy SourceFiles="@(NodeLib)" DestinationFolder="$(MSBuildProjectDirectory)\Scripts" />

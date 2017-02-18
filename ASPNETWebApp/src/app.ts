@@ -1,5 +1,5 @@
-﻿import {Component} from "angular2/core"
-import {MyModel} from "./model"
+﻿import { Component } from "angular2/core"
+import { MyModel } from "./model"
 
 @Component({
     selector: `my-app`,
