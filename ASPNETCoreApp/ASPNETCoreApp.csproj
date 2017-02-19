@@ -58,9 +58,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="wwwroot\package.json">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
     <Content Update="wwwroot\scripts\site.js">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
