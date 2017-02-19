@@ -8,7 +8,9 @@
     "emitDecoratorMetadata": true
   },
   "files": [
-
+    "basicApp/app.module.ts",
+    "basicApp/app.component.ts",
+    "basicApp/main.ts",
     "require-config.ts",
     "knockoutApp/hello.ts",
     "../typings/index.d.ts"
