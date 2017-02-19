@@ -1,22 +1,19 @@
 {
   "compilerOptions": {
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "noEmitOnError": true,
     "sourceMap": true,
+    "target": "es5",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "target": "es5"
+    "outDir": "./Scripts/App"
   },
   "files": [
-    "./Scripts/basicApp/app.component.ts",
-    "./Scripts/basicApp/app.module.ts",
-    "./Scripts/basicApp/main.ts",
-
-    "./Scripts/knockoutApp/hello.ts",
-
-    "./Scripts/require-config.ts",
-
+    "./src/app.ts",
+    "./src/model.ts",
+    "./src/main.ts",
+    "./src/hello.ts",
+    "./src/require-config.ts",
     "./typings/index.d.ts"
-  ],
-  "compileOnSave": true
+  ]
 }

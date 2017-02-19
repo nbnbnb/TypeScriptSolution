@@ -176,6 +176,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -187,6 +190,13 @@
     <Content Include="Content\Site.css" />
     <Content Include="package.json" />
     <Content Include="bower.json" />
+    <Content Include="Scripts\angular2-polyfills.js" />
+    <Content Include="Scripts\angular2.js" />
+    <Content Include="Scripts\App\app.js" />
+    <Content Include="Scripts\App\hello.js" />
+    <Content Include="Scripts\App\main.js" />
+    <Content Include="Scripts\App\model.js" />
+    <Content Include="Scripts\App\require-config.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -201,8 +211,9 @@
     <Content Include="Scripts\require.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\Rx.js" />
+    <Content Include="Scripts\system.src.js" />
     <None Include="Scripts\_references.js" />
-    <Content Include="Scripts\systemjs.config.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -240,9 +251,6 @@
     <Content Include="tsconfig.json" />
     <Content Include="Views\Demo\Index.cshtml" />
     <Content Include="Views\Demo\Knockout.cshtml" />
-    <Content Include="typings\globals\es6-shim\typings.json" />
-    <Content Include="typings\globals\knockout\typings.json" />
-    <Content Include="typings.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -251,23 +259,28 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="Scripts\basicApp\app.component.ts" />
-    <TypeScriptCompile Include="Scripts\basicApp\app.module.ts" />
-    <TypeScriptCompile Include="Scripts\basicApp\main.ts" />
-    <TypeScriptCompile Include="Scripts\require-config.ts" />
-    <TypeScriptCompile Include="Scripts\knockoutApp\hello.ts" />
-    <TypeScriptCompile Include="typings\globals\es6-shim\index.d.ts" />
-    <TypeScriptCompile Include="typings\globals\knockout\index.d.ts" />
-    <TypeScriptCompile Include="typings\index.d.ts" />
+    <TypeScriptCompile Include="src\require-config.ts" />
+    <TypeScriptCompile Include="src\hello.ts" />
+    <TypeScriptCompile Include="src\main.ts" />
+    <TypeScriptCompile Include="src\model.ts" />
+    <TypeScriptCompile Include="src\app.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <NodeLib Include="D:\Repos\TypeScriptSolution\ASPNETWebApp\node_modules\angular2\bundles\angular2.js" />
+    <NodeLib Include="D:\Repos\TypeScriptSolution\ASPNETWebApp\node_modules\systemjs\dist\system.src.js" />
+    <NodeLib Include="D:\Repos\TypeScriptSolution\ASPNETWebApp\node_modules\rxjs\bundles\Rx.js" />
     <NodeLib Include="D:\Repos\TypeScriptSolution\ASPNETWebApp\bower_components\knockout\dist\knockout.js" />
     <NodeLib Include="D:\Repos\TypeScriptSolution\ASPNETWebApp\bower_components\requirejs\require.js" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\App\app.js.map" />
+    <Content Include="Scripts\App\hello.js.map" />
+    <Content Include="Scripts\App\main.js.map" />
+    <Content Include="Scripts\App\model.js.map" />
+    <Content Include="Scripts\App\require-config.js.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
   </ItemGroup>
