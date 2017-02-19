@@ -1,19 +1,16 @@
 ﻿@{
     ViewBag.Title = "Demo Page";
 }
-<script src="~/Scripts/angular2-polyfills.js"></script>
-<script src="~/Scripts/system.src.js"></script>
-<script src="~/Scripts/rx.js"></script>
-<script src="~/Scripts/angular2.js"></script>
+
+<!-- Polyfill(s) for older browsers -->
+<script src="~/node_modules/core-js/client/shim.min.js"></script>
+<script src="~/node_modules/zone.js/dist/zone.min.js"></script>
+<script src="~/node_modules/systemjs/dist/system.js"></script>
+
+<script src="~/Scripts/systemjs.config.js"></script>
+
 <script>
-    System.config({
-        packages: {
-            '/Scripts/App': {
-                format: 'cjs',
-                defaultExtension: 'js'
-            }
-        }
-    });
-    System.import('/Scripts/App/main').then(null, console.error.bind(console));
+    System.import('basicApp').catch(function (err) { console.error(err); });
 </script>
+
 <my-app>Loading...</my-app>
