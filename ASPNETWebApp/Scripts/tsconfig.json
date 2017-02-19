@@ -5,15 +5,16 @@
     "sourceMap": true,
     "target": "es5",
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    "types": [ "es6-shim", "knockout" ] // 指定 typing 文件，通过 npm install --save @types/knockout 进行安装
   },
   "files": [
     "basicApp/app.module.ts",
     "basicApp/app.component.ts",
     "basicApp/main.ts",
     "require-config.ts",
-    "knockoutApp/hello.ts",
-    "../typings/index.d.ts"
+    "knockoutApp/hello.ts"
   ],
+
   "compileOnSave": true
 }
