@@ -239,7 +239,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="tsconfig.json" />
+    <Content Include="Scripts\tsconfig.json" />
     <Content Include="Views\Demo\Index.cshtml" />
     <Content Include="Views\Demo\Knockout.cshtml" />
     <Content Include="typings.json" />

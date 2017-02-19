@@ -8,12 +8,10 @@
     "emitDecoratorMetadata": true
   },
   "files": [
-    "./Scripts/basicApp/main.ts",
-    "./Scripts/basicApp/app.component.ts",
-    "./Scripts/basicApp/app.module.ts",
-    "./Scripts/require-config.ts",
-    "./Scripts/knockoutApp/hello.ts",
-    "./typings/index.d.ts"
+
+    "require-config.ts",
+    "knockoutApp/hello.ts",
+    "../typings/index.d.ts"
   ],
   "compileOnSave": true
 }
