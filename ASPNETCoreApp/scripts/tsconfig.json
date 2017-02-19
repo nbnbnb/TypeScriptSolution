@@ -12,12 +12,12 @@
     "./basicApp/main.ts",
     "./basicApp/app.component.ts",
     "./basicApp/app.module.ts",
-    "../typings/index.d.ts" 
+    "../typings/index.d.ts"
   ],
+
   "compileOnSave": true
 }
 
-//     
 
 /*
   https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
