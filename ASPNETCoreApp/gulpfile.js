@@ -39,7 +39,7 @@ gulp.task('libs', ['clean_scripts'], function (cb) { // two
 });
 
 gulp.task('rxjs', ['libs'], function (cb) { // three
-    gulp.src(paths.rxjs).pipe(gulp.dest('wwwroot/scripts/libs/')).on('end', cb);
+    gulp.src(paths.rxjs).pipe(gulp.dest('wwwroot/scripts/libs/rxjs')).on('end', cb);
 });
 
 gulp.task('scripts', ['rxjs'], function (cb) {  // four

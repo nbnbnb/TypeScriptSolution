@@ -6,9 +6,9 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "target": "es5",
-    "types": [ "es6-shim" ] // 指定 typing 文件，通过 npm install --save @types/knockout 进行安装
+    "types": [ "es6-shim" ] // 指定 typing 文件，通过 npm install --save @types/es6-shim 进行安装
   },
-
+  "include": [ "scripts/**/*" ],
   "compileOnSave": true
 }
 
