@@ -188,6 +188,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="gulpfile.js" />
     <Content Include="package.json" />
     <Content Include="bower.json" />
     <Content Include="Scripts\bootstrap.js" />
@@ -199,13 +200,11 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\knockout.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\require.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <None Include="Scripts\_references.js" />
-    <Content Include="Scripts\systemjs.config.js" />
+    <TypeScriptCompile Include="Scripts\config\systemjs.config.ts" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -240,12 +239,13 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Scripts\tsconfig.json" />
+    <Content Include="tsconfig.json" />
     <Content Include="Views\Demo\Index.cshtml" />
     <Content Include="Views\Demo\Knockout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Scripts\libs\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -266,7 +266,7 @@
     <TypeScriptCompile Include="Scripts\basicApp\app.module.ts" />
     <TypeScriptCompile Include="Scripts\basicApp\main.ts" />
     <TypeScriptCompile Include="Scripts\knockoutApp\hello.ts" />
-    <TypeScriptCompile Include="Scripts\require-config.ts" />
+    <TypeScriptCompile Include="Scripts\config\require-config.ts" />
   </ItemGroup>
   <Target Name="CopyFiles" BeforeTargets="Build">
     <Copy SourceFiles="@(NodeLib)" DestinationFolder="$(MSBuildProjectDirectory)\Scripts" />

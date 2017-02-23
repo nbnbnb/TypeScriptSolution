@@ -8,6 +8,16 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
+    <!-- Polyfill(s) for older browsers -->
+    <script src="~/Scripts/libs/shim.min.js"></script>
+    <script src="~/Scripts/libs/zone.min.js"></script>
+
+    <script src="~/Scripts/libs/system.js"></script>
+    <script src="~/Scripts/libs/systemjs.config.js"></script>
+
+    <script src="~/Scripts/libs/require.js"></script>       
+    <script src="~/Scripts/libs/require-config.js"></script>
+
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
