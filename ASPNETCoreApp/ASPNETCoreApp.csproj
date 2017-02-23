@@ -22,7 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="wwwroot\package.json" />
     <Content Include="wwwroot\scripts\site.js" />
     <Content Include="wwwroot\scripts\systemjs.config.js" />
   </ItemGroup>
