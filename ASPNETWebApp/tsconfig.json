@@ -8,19 +8,6 @@
     "emitDecoratorMetadata": true,
     "types": [ "es6-shim", "knockout", "systemjs" ] // 指定 typing 文件，通过 npm install --save @types/knockout 进行安装
   },
-  "files": [
-    // angular app
-    "Scripts/basicApp/app.module.ts",
-    "Scripts/basicApp/app.component.ts",
-    "Scripts/basicApp/main.ts",
-
-    // knockout app
-    "Scripts/knockoutApp/hello.ts",
-
-    // config
-    "Scripts/config/require-config.ts",
-    "Scripts/config/systemjs.config.ts"
-  ],
-
+  "include": [ "Scripts/apps/**/*", "Scripts/config/**/*" ],
   "compileOnSave": true
 }

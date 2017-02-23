@@ -261,10 +261,10 @@
     <None Include="Scripts\jquery.validate-vsdoc.js" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="Scripts\basicApp\app.component.ts" />
-    <TypeScriptCompile Include="Scripts\basicApp\app.module.ts" />
-    <TypeScriptCompile Include="Scripts\basicApp\main.ts" />
-    <TypeScriptCompile Include="Scripts\knockoutApp\hello.ts" />
+    <TypeScriptCompile Include="Scripts\apps\basicApp\app.component.ts" />
+    <TypeScriptCompile Include="Scripts\apps\basicApp\app.module.ts" />
+    <TypeScriptCompile Include="Scripts\apps\basicApp\main.ts" />
+    <TypeScriptCompile Include="Scripts\apps\knockoutApp\hello.ts" />
     <TypeScriptCompile Include="Scripts\config\require-config.ts" />
   </ItemGroup>
   <Target Name="CopyFiles" BeforeTargets="Build">
