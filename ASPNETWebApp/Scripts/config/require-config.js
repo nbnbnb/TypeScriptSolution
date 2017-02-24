@@ -1,6 +1,6 @@
 require.config({
     paths: {
-        "knockout": "/Scripts/knockout",
+        "knockout": "/bower_components/knockout/dist/knockout",
     }
 });
 //# sourceMappingURL=require-config.js.map

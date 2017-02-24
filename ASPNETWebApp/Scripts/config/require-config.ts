@@ -1,6 +1,6 @@
 ﻿declare var require: any;
 require.config({
     paths: {
-        "knockout": "/Scripts/knockout",
+        "knockout": "/bower_components/knockout/dist/knockout",
     }
 });
