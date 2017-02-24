@@ -11,14 +11,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="npm_components\**" />
     <Compile Remove="typings\**" />
     <Compile Remove="wwwroot\app\**" />
+    <Compile Remove="wwwroot\npm_components\**" />
+    <Content Remove="npm_components\**" />
     <Content Remove="typings\**" />
     <Content Remove="wwwroot\app\**" />
+    <Content Remove="wwwroot\npm_components\**" />
+    <EmbeddedResource Remove="npm_components\**" />
     <EmbeddedResource Remove="typings\**" />
     <EmbeddedResource Remove="wwwroot\app\**" />
+    <EmbeddedResource Remove="wwwroot\npm_components\**" />
+    <None Remove="npm_components\**" />
     <None Remove="typings\**" />
     <None Remove="wwwroot\app\**" />
+    <None Remove="wwwroot\npm_components\**" />
   </ItemGroup>
 
   <ItemGroup>
