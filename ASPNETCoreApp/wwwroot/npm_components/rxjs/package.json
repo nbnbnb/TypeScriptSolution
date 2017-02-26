@@ -6,13 +6,13 @@
     ]
   ],
   "_from": "rxjs@>=5.0.1-0 <6.0.0-0",
-  "_id": "rxjs@5.1.1",
+  "_id": "rxjs@5.2.0",
   "_inCache": true,
   "_location": "/rxjs",
   "_nodeVersion": "7.4.0",
   "_npmOperationalInternal": {
     "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/rxjs-5.1.1.tgz_1486963762931_0.5515915406867862"
+    "tmp": "tmp/rxjs-5.2.0.tgz_1487650676666_0.29112744983285666"
   },
   "_npmUser": {
     "email": "ben@benlesh.com",
@@ -31,13 +31,13 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/rxjs/-/rxjs-5.1.1.tgz",
-  "_shasum": "fc48922965bc6c5efbcc0fe46e90a3af64137a7b",
+  "_resolved": "http://registry.npmjs.org/rxjs/-/rxjs-5.2.0.tgz",
+  "_shasum": "db537de8767c05fa73721587a29e0085307d318b",
   "_shrinkwrap": null,
   "_spec": "rxjs@^5.0.1",
   "_where": "D:\\Repos\\TypeScriptSolution\\ASPNETCoreApp",
   "author": {
-    "email": "blesh@netflix.com",
+    "email": "ben@benlesh.com",
     "name": "Ben Lesh"
   },
   "bugs": {
@@ -51,7 +51,7 @@
   "contributors": [
     {
       "name": "Ben Lesh",
-      "email": "blesh@netflix.com"
+      "email": "ben@benlesh.com"
     },
     {
       "name": "Paul Taylor",
@@ -133,8 +133,8 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "fc48922965bc6c5efbcc0fe46e90a3af64137a7b",
-    "tarball": "https://registry.npmjs.org/rxjs/-/rxjs-5.1.1.tgz"
+    "shasum": "db537de8767c05fa73721587a29e0085307d318b",
+    "tarball": "https://registry.npmjs.org/rxjs/-/rxjs-5.2.0.tgz"
   },
   "engines": {
     "npm": ">=2.0.0"
@@ -216,5 +216,5 @@
     "watch": "Watch codebase, trigger compile when source code changes"
   },
   "typings": "Rx.d.ts",
-  "version": "5.1.1"
+  "version": "5.2.0"
 }

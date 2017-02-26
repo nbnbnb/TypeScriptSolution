@@ -31,7 +31,7 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@angular/router/-/router-3.4.8.tgz",
+  "_resolved": "http://registry.npmjs.org/@angular/router/-/router-3.4.8.tgz",
   "_shasum": "d569099359848a3f708df87f685c98d37621ab97",
   "_shrinkwrap": null,
   "_spec": "@angular/router@^3.4.0",

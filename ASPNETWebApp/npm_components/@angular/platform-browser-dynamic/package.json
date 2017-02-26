@@ -31,7 +31,7 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.4.8.tgz",
+  "_resolved": "http://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.4.8.tgz",
   "_shasum": "86059fe930489d1ca0056a5aba0b4420414759f5",
   "_shrinkwrap": null,
   "_spec": "@angular/platform-browser-dynamic@^2.4.0",

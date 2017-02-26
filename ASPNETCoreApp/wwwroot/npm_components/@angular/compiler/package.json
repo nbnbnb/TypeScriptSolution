@@ -31,7 +31,7 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@angular/compiler/-/compiler-2.4.8.tgz",
+  "_resolved": "http://registry.npmjs.org/@angular/compiler/-/compiler-2.4.8.tgz",
   "_shasum": "fa788fc8bed9f322b040af2b9a06a70991390e23",
   "_shrinkwrap": null,
   "_spec": "@angular/compiler@^2.4.0",

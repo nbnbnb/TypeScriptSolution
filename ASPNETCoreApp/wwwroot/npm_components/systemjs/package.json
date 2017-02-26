@@ -31,7 +31,7 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/systemjs/-/systemjs-0.20.9.tgz",
+  "_resolved": "http://registry.npmjs.org/systemjs/-/systemjs-0.20.9.tgz",
   "_shasum": "80c00a89511a2064c3f57ce6e8f27784620477ec",
   "_shrinkwrap": null,
   "_spec": "systemjs@^0.20.9",

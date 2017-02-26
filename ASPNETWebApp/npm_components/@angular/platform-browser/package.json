@@ -31,7 +31,7 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-2.4.8.tgz",
+  "_resolved": "http://registry.npmjs.org/@angular/platform-browser/-/platform-browser-2.4.8.tgz",
   "_shasum": "686bc82d9188e354181699640777237ed79122ed",
   "_shrinkwrap": null,
   "_spec": "@angular/platform-browser@^2.4.0",

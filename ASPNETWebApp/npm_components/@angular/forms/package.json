@@ -31,7 +31,7 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@angular/forms/-/forms-2.4.8.tgz",
+  "_resolved": "http://registry.npmjs.org/@angular/forms/-/forms-2.4.8.tgz",
   "_shasum": "51512a801aaf3a1eba7bce2b22694537b93f047f",
   "_shrinkwrap": null,
   "_spec": "@angular/forms@^2.4.0",
